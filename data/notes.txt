@@ -1,0 +1,61 @@
+Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) focused on understanding, interpreting, and generating human language.
+The goals of NLP include understanding language, generating language, and bridging human communication with machine understanding.
+
+The morphological level of NLP deals with the structure of words, including prefixes, roots, and suffixes.
+The lexical level of NLP focuses on word meaning and vocabulary.
+The syntactic level analyzes sentence structure using grammar rules.
+Semantic processing determines the meaning of a sentence.
+The pragmatic level understands context and real-world meaning.
+
+A typical NLP pipeline includes text collection, cleaning, tokenization, stemming, lemmatization, part-of-speech tagging, and named entity recognition.
+Tokenization splits text into smaller units such as words or sentences.
+Stemming reduces words to their root forms, such as playing to play and running to run.
+Lemmatization uses dictionary knowledge and returns linguistically valid base forms.
+Part-of-speech tagging assigns grammatical tags such as noun, verb, and adjective.
+Named Entity Recognition identifies entities such as person, location, and organization names.
+
+Bag of Words represents text as word frequency and ignores word order.
+TF-IDF measures word importance by balancing term frequency against document frequency.
+Word embeddings are dense vector representations that capture semantic meaning.
+In Word2Vec, CBOW predicts a target word from context, while Skip-gram predicts context from a target word.
+A famous word vector analogy is king minus man plus woman approximately equals queen.
+Contextual embeddings from models like BERT, GPT, and RoBERTa change word representation based on context.
+
+A language model predicts the probability of word sequences.
+Major types of language models include statistical n-gram models, neural models such as RNN and LSTM, and transformer models.
+A unigram contains one word, a bigram contains two words, and a trigram contains three words.
+A bigram is a sequence of two words.
+
+Common machine learning algorithms in NLP include Naive Bayes, Logistic Regression, SVM, and Decision Trees.
+Common NLP tasks include sentiment analysis, spam detection, and topic classification.
+RNNs are useful for sequential data but can suffer from the vanishing gradient problem.
+LSTM improves RNN behavior by preserving longer-term dependencies.
+GRU is a simplified gated recurrent architecture related to LSTM.
+
+Transformers revolutionized NLP by modeling long-range dependencies efficiently with attention.
+The key concept in transformers is the attention mechanism.
+BERT is commonly used for language understanding tasks.
+GPT is commonly used for text generation tasks.
+T5 uses a text-to-text framework for multiple NLP tasks.
+
+Text classification assigns labels to text, such as spam or not spam.
+Sentiment analysis detects positive, negative, or neutral emotion in text.
+Machine translation converts text from one language to another, such as English to Hindi.
+Question answering systems return direct answers for natural-language questions.
+Text summarization produces a shorter version of long text while preserving key meaning.
+Chatbots simulate human conversation for support and assistance.
+
+Classification evaluation commonly uses accuracy, precision, recall, and F1-score.
+NLP evaluation often also uses BLEU for translation quality and ROUGE for summarization quality.
+
+Common NLP challenges include ambiguity, sarcasm, context understanding, and multilingual complexity.
+Ambiguity means one word can have multiple meanings, such as bat as an animal or sports equipment.
+Sarcasm is difficult because literal wording may differ from intended meaning.
+Context understanding remains difficult when background knowledge is required.
+Multilingual processing is hard because languages differ in grammar, script, and usage patterns.
+
+Applications of NLP include chatbots, search engines, voice assistants, email filtering, recommendation systems, healthcare text analysis, and legal document processing.
+
+Common NLP libraries include NLTK, spaCy, scikit-learn, TensorFlow, PyTorch, and Hugging Face Transformers.
+
+The future of NLP includes more human-like conversations, multilingual AI systems, better context understanding, integration with AI agents, and more explainable models.
