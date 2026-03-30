@@ -1,0 +1,116 @@
+========================================================================================
+NOTES ASSISTANT EVALUATION REPORT
+========================================================================================
+
+Dataset: data/notes.txt
+Total Test Questions: 30
+Correct Answers: 10
+Failed Answers: 20
+
+Accuracy: 33.33%
+Average Precision (approx): 35.38%
+Average Recall (approx): 33.21%
+F1 (approx): 34.26%
+
+----------------------------------------------------------------------------------------
+FAILED CASES
+----------------------------------------------------------------------------------------
+[2] Q: What are the goals of NLP?
+Expected: The goals include understanding language, generating language, and bridging human communication with machine understanding.
+Predicted: Goals of NLP: Understand human language (Natural Language Understanding – NLU)
+Score: 0.7703 | Precision: 0.44 | Recall: 0.33
+
+[7] Q: What is the pragmatic level in NLP?
+Expected: The pragmatic level understands context and real-world meaning.
+Predicted: Semantic Level: Determines the meaning of a sentence.
+Score: 0.6556 | Precision: 0.38 | Recall: 0.33
+
+[9] Q: What is stemming?
+Expected: Stemming reduces words to their root forms.
+Predicted: Morphological Level: Deals with the structure of words (prefix, root, suffix).
+Score: 0.4604 | Precision: 0.18 | Recall: 0.29
+
+[10] Q: How is lemmatization different from stemming?
+Expected: Lemmatization uses dictionary knowledge and returns linguistically valid base forms.
+Predicted: Morphological Level: Deals with the structure of words (prefix, root, suffix).
+Score: 0.4207 | Precision: 0.00 | Recall: 0.00
+
+[11] Q: What is part-of-speech tagging?
+Expected: Part-of-speech tagging assigns grammatical tags like noun, verb, and adjective.
+Predicted: Introduction to NLP: Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language in a meaningful way.
+Score: 0.5096 | Precision: 0.08 | Recall: 0.17
+
+[12] Q: What is Named Entity Recognition (NER)?
+Expected: Named Entity Recognition identifies entities such as person, location, and organization names.
+Predicted: Introduction to NLP: Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language in a meaningful way.
+Score: 0.4489 | Precision: 0.04 | Recall: 0.08
+
+[14] Q: What does TF-IDF measure?
+Expected: TF-IDF measures word importance by balancing term frequency against document frequency.
+Predicted: IDF = \log \left(\frac{\text{total documents}}{\text{documents containing word}}\right)
+Score: 0.5492 | Precision: 0.20 | Recall: 0.18
+
+[15] Q: What are word embeddings?
+Expected: Word embeddings are dense vector representations that capture semantic meaning.
+Predicted: Tokenization: Splitting text into words or sentences.
+Score: 0.4596 | Precision: 0.00 | Recall: 0.00
+
+[17] Q: What is the famous word vector analogy example?
+Expected: A common analogy is king minus man plus woman approximately equals queen.
+Predicted: Bag of Words (BoW): Represents text as word frequency.
+Score: 0.3681 | Precision: 0.00 | Recall: 0.00
+
+[18] Q: What are contextual embeddings?
+Expected: Contextual embeddings from models like BERT and GPT change word representation based on context.
+Predicted: Semantic Level: Determines the meaning of a sentence.
+Score: 0.3771 | Precision: 0.00 | Recall: 0.00
+
+[20] Q: What are major types of language models?
+Expected: Major types include statistical n-gram models, neural models, and transformer models.
+Predicted: Language Models: A language model predicts probability of word sequences.
+Score: 0.6353 | Precision: 0.11 | Recall: 0.10
+
+[21] Q: What is a bigram?
+Expected: A bigram is a sequence of two words.
+Predicted: Introduction to NLP: Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language in a meaningful way.
+Score: 0.2048 | Precision: 0.12 | Recall: 0.43
+
+[22] Q: Which machine learning algorithms are common in NLP?
+Expected: Common algorithms include Naive Bayes, Logistic Regression, SVM, and Decision Trees.
+Predicted: Introduction to NLP: Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language in a meaningful way.
+Score: 0.6390 | Precision: 0.04 | Recall: 0.09
+
+[23] Q: What is a key limitation of RNNs?
+Expected: RNNs can suffer from the vanishing gradient problem.
+Predicted: RNN (Recurrent Neural Network): Handles sequential data but suffers from vanishing gradient
+Score: 0.4976 | Precision: 0.25 | Recall: 0.38
+
+[24] Q: Why were transformers important for NLP?
+Expected: Transformers revolutionized NLP by modeling dependencies effectively with attention.
+Predicted: Transformers (VERY IMPORTANT): Transformers revolutionized NLP.
+Score: 0.8903 | Precision: 0.60 | Recall: 0.33
+
+[25] Q: What is the key concept in transformers?
+Expected: The key concept is the attention mechanism.
+Predicted: Transformers (VERY IMPORTANT): Transformers revolutionized NLP.
+Score: 0.5404 | Precision: 0.00 | Recall: 0.00
+
+[27] Q: What does sentiment analysis detect?
+Expected: Sentiment analysis detects positive, negative, or neutral emotion in text.
+Predicted: It combines concepts from computer science, linguistics, and machine learning.
+Score: 0.4137 | Precision: 0.00 | Recall: 0.00
+
+[28] Q: What metrics are used for classification evaluation?
+Expected: Accuracy, precision, recall, and F1-score are used for classification evaluation.
+Predicted: It combines concepts from computer science, linguistics, and machine learning.
+Score: 0.3631 | Precision: 0.10 | Recall: 0.09
+
+[29] Q: What are common NLP challenges?
+Expected: Common challenges include ambiguity, sarcasm, context understanding, and multilingual complexity.
+Predicted: Transformers (VERY IMPORTANT): Transformers revolutionized NLP.
+Score: 0.5500 | Precision: 0.00 | Recall: 0.00
+
+[30] Q: Which libraries are used in NLP projects?
+Expected: Typical libraries include NLTK, spaCy, scikit-learn, TensorFlow or PyTorch, and Hugging Face Transformers.
+Predicted: Introduction to NLP: Natural Language Processing (NLP) is a subfield of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language in a meaningful way.
+Score: 0.5373 | Precision: 0.04 | Recall: 0.07
